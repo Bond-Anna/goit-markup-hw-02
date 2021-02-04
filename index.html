@@ -5,22 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Веб студия создания сайтов</title>
+    <link rel="stylesheet" href="./modern-normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
         <header>
             <nav>
-                <a href="/"><span class="accent">Web</span>Studio</a>
+                <a href="/"><span class="accent">Web</span><span class="">Studio</span></a>
                 <ul>
                     <li><a href="Студия">Студия</a></li>
-                    <li><a href="Портфолио">Портфолио</a></li>
+                    <li><a href="./portfolio.html">Портфолио</a></li>
                     <li><a href="Контакты">Контакты</a></li>
                 </ul>
             </nav>
 
                 <ul>
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="text">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="text">+38 096 111 11 11</a></li>
                 </ul>
             
         </header>
@@ -28,8 +32,8 @@
         <!-- Hero -->
         <div>
             <section>
-                <h1>Эффективные решения для вашего бизнеса</h1>
-                <a href="#">Заказать услугу</a>
+                <h1 class="white">Эффективные решения для вашего бизнеса</h1>
+                <a href="#" class="white">Заказать услугу</a>
             </section>
         </div>
         <!-- Особенности -->
@@ -70,21 +74,21 @@
                 <li>
                     <ul>
                         <li><h3>Игорь Демьяненко</h3></li>
-                        <li>Product Designer</li>
+                        <li class="text">Product Designer</li>
                         <li><img src="./images/img-4.jpg" alt="Игорь Демьяненко" width="200"></li>
                     </ul>
                 </li>
                 <li>
                     <ul>
                         <li> <h3>Ольга Репина</h3></li>
-                        <li>Frontend Developer</li>
+                        <li class="text">Frontend Developer</li>
                         <li><img src="./images/img-5.jpg" alt="Ольга Репина" width="200"></li>
                     </ul>
                 </li>
                 <li>
                     <ul>
                         <li><h3>Николай Тарасов</h3></li>
-                        <li>Marketing</li>
+                        <li class="text">Marketing</li>
                         <li><img src="./images/img-6.jpg" alt="Николай Тарасов" width="200"></li>
                     </ul>
                 </li>
@@ -93,7 +97,7 @@
                         <li>
                             <h3>Михаил Ермаков</h3>
                         </li>
-                        <li>UI Designer</li>
+                        <li class="text">UI Designer</li>
                         <li><img src="./images/img-7.jpg" alt="Михаил Ермаков" width="200"></li>
                     </ul>
                 </li>
@@ -102,10 +106,10 @@
     </main>
     <footer>
         <address>
-            <a href="/"><span class="accent">Web</span>Studio</a>
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <a href="mailto:info@example.com">info@example.com</a>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <a href="/"><span class="accent">Web</span><span class="white">Studio</span></a>
+            <p class="white">г. Киев, пр-т Леси Украинки, 26</p>
+            <a href="mailto:info@example.com" class="down-contacts">info@example.com</a>
+            <a href="tel:+380991111111" class="down-contacts">+38 099 111 11 11</a>
         </address>
     </footer>
 </body>

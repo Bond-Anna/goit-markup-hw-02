@@ -1,0 +1,38 @@
+:root {
+  --text-title: #212121;
+  --text-main: #757575;
+  --text-white: #ffffff;
+  --text-footer: rgba(255,255,255,0,6) 
+}
+
+p {
+  color: var(--text-main)
+}
+
+.white {
+  color: var(--text-white)
+}
+
+.text {
+  color: var(--text-main)
+}
+
+h2, h3 {
+  color: var(--text-title)
+}
+
+.accent {
+  color: #2196F3;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header a {
+  color: var(--text-title)
+}
+
+a.down-contacts {
+  color: var(--text-footer)
+}
