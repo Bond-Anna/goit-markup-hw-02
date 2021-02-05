@@ -2,7 +2,7 @@
   --text-title: #212121;
   --text-main: #757575;
   --text-white: #ffffff;
-  --text-footer: rgba(255,255,255,0,6) 
+  --text-footer: #FFFFFF 60 %;
 }
 
 p {
@@ -25,14 +25,49 @@ h2, h3 {
   color: #2196F3;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
+a.down-contacts {
+  color: var(--text-footer)
 }
 
 header a {
   color: var(--text-title)
 }
 
-a.down-contacts {
-  color: var(--text-footer)
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196F3
+}
+
+a.link.current {
+  color: #2196F3
+}
+
+button.white {
+  background: #2196F3;
+}
+
+.hero {
+  background: #2F303A;
+}
+
+footer {
+  background: #2F303A;
+}
+
+.buttons {
+  background: #F5F4FA;
+}
+
+.buttons:hover,
+.buttons:focus {
+  background: #2196F3;
+  color: #ffffff
+}
+
+.our-team {
+  background: #F5F4FA
 }
