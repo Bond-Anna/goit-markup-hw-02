@@ -9,7 +9,8 @@
   color: #2196F3;
 }
 
-header a {
+.top .logo, 
+.top .link {
   color: var(--text-title);
 }
 
@@ -104,7 +105,7 @@ button.white {
   line-height: 1.7;
 }
 
-h2 {
+.title {
   color: var(--text-title);
 
   font-weight: bold;
@@ -117,7 +118,7 @@ h2 {
   background: #F5F4FA;
 }
 
-.team h3 {
+.team .name {
   color: var(--text-title: #212121);
   font-weight: 500;
   font-size: 16px;
@@ -154,7 +155,7 @@ a.down-contacts {
   text-decoration: none;
 }
 
-.h3 {
+.project-name {
   color: var(--text-title);
 
   font-weight: 700;
